@@ -1,0 +1,39 @@
+lidar_robot:
+  chassis:
+    length: 0.20
+    width: 0.20
+    height: 0.05
+    mass: 1.0
+
+  wheel:
+    radius: 0.05
+    width: 0.02
+    mass: 0.05
+
+  # Banh chinh day ve phia truoc 2/3 than
+  wheelbase: 0.21
+  wheel_offset_x: 0.033
+  wheel_offset_z: 0.05
+
+  chassis_offset_z: 0.05
+
+  # Caster lui ve phia sau de thang bang
+  caster:
+    radius: 0.025
+    mass: 0.02
+    offset_x: -0.09
+    offset_z: 0.025
+
+  # LiDAR 2D tren noc chassis
+  lidar:
+    radius: 0.035
+    height: 0.04
+    mass: 0.17
+    offset_x: 0.03
+    offset_z: 0.095       # noc chassis (0.075) + 0.02
+    samples: 360
+    update_rate: 10
+    min_angle: -3.14159
+    max_angle: 3.14159
+    range_min: 0.12
+    range_max: 12.0
