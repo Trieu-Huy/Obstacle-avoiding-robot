@@ -5,7 +5,7 @@ find_package(ament_cmake REQUIRED)
 
 # Install toàn bộ thư mục chứa URDF, launch, config, world, rviz, mesh
 install(
-  DIRECTORY urdf launch config worlds rviz meshes
+  DIRECTORY urdf launch config worlds rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
