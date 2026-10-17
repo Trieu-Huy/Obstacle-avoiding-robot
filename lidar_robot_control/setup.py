@@ -21,6 +21,7 @@ setup(
         'console_scripts': [
             'wasd_teleop = lidar_robot_control.wasd_teleop:main',
             'wasd_teleop_global = lidar_robot_control.wasd_teleop_global:main',
+            'obstacle_avoidance = lidar_robot_control.obstacle_avoidance:main',
         ],
     },
 )
